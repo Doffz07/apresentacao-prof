@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        body { font-family: Calibri; }
+    </style>
+</head>
+<body>
+    <center>
+    <h2>Contato</h2>
+    <nav>
+        <a href="index.html">Home</a>  ||  
+        <a href="testesAudios.html">Músicas para estudar</a>  ||  
+        <a href="contato.html">Entre em contato</a>  ||  
+        <a href="videos.html">Vídeos sobre programação</a>  ||  
+        <a href="planos.html">Disciplinas ministradas</a>  
+    </center>
+    </nav>
+
+    <div>
+
+        <h1>Como me contatar</h1>
+        <p>Insira seu email e sua duvida:</p>
+
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label>Insira seu email:</label>
+                <input type="text" name="nome" id="nome">  
+            </div>
+
+            <div>
+                <label>Turma:</label>
+                <input type="text" name="Equipe" id="Equipe">  
+            </div>
+        </fieldset>
+
+            <div>
+                <label>Aluno de qual semestre:</label>
+                <label>
+                    <input type="radio" name="circuito" value="Interlagos"> 1 - Semestre    
+                </label>
+                <label>
+                    <input type="radio" name="circuito" value="Monaco"> 2 - Semestre      
+                </label>
+                <label>
+                    <input type="radio" name="circuito" value="Silverstone"> 3 - Semestre    
+                </label>
+                <label>
+                    <input type="radio" name="circuito" value="Silverstone"> 4 - Semestre    
+                </label>
+            </div>
+
+            <br>
+
+            <div>
+                <label>Horário das aulas:</label>
+                <select id="temporada">
+                    <option selected disabled value="">Escolha o horário de suas aulas:</option>
+                    <option>Matutino</option>
+                    <option>Vespertino</option>
+                    <option>Noturno</option>
+                 </select>
+            </div>
+
+            <fieldset>
+                <div>
+                    <labe>Selecione qual das materias lhe causa duvida:</labe><br><br>
+                    <input type="checkbox" id="equipe1" name="equipe1" value="historia">
+                    <label for="Equipe">Historia da Filosofia</label>
+                    <input type="checkbox" id="equipe2" name="equipe2" value="Ferrari">
+                    <label for="Equipe">Teoria do Conhecimento</label>
+                    <input type="checkbox" id="equipe3" name="equipe3" value="Mclaren">
+                    <label for="Equipe">Ética</label>
+                    <input type="checkbox" id="equipe4" name="equipe4" value="Red Bull">
+                    <label for="Equipe">Lógica</label>
+                    <input type="checkbox" id="equipe5" name="equipe5" value="Aston Martin">
+                    <label for="Equipe">Filosofia Politica</label>
+                  </div>                 
+            </fieldset>
+
+            <div>
+                <br>
+                <label>Por fim, descreva sua dúvida:</label>
+                <br>
+                <textarea row="6" style="width: 26em" id="historia" name="historia"></textarea>
+            </div>
+
+            <br>
+
+            <button type="submit">Enviar pergunta ao professor</button>
+
+
+
+
+    </form>
+
+    <center>
+    <img src="duvida.jpg" alt="Image" height="200" width="200"/>
+    </center>
+    
+</body>
+</html>
